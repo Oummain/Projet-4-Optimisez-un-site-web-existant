@@ -29,8 +29,14 @@ a:hover {
 }
 
 .image-resize-mode {
-    width: 100px;
+    width: 100px; 
+    height: 100px;
 
+}
+
+.navbar-img {
+    width: 216px;
+    height: 40px;
 }
 
 .bloc {
@@ -883,6 +889,17 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    .image-resize-mode {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .navbar-img {
+        width: 216px;
+        height: 40px;
+    }
+
     .container {
         width: 100%;
     }
